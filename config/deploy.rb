@@ -18,7 +18,7 @@ set :campfire_options, :account => 'supportbee',
                        :token => '3b6227280f2699d4a85144e131bfe73ee85581ba',
                        :ssl => true
 
-role :app, "web1.supportbee.com", "web2.supportbee.com"                          # This may be the same as your `Web` server
+role :app, "new-marketing.supportbee.com"                          # This may be the same as your `Web` server
 
 before 'deploy:update', 'deploy:update_jekyll'
 
