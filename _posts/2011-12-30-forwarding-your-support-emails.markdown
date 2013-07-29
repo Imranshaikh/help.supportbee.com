@@ -25,6 +25,12 @@ Here are the steps for Google Apps (one of the most popular email provider for b
 4. **This Step is extremely important. The forwarding won't work without this**. Go back to your Gmail account and finish the instructions at [http://support.google.com/mail/bin/answer.py?hl=en&answer=10957](http://support.google.com/mail/bin/answer.py?hl=en&answer=10957). 
 
 
+Here are the steps for MS Outlook 
+
+1. Follow the instructions at http://office.microsoft.com/en-us/outlook-help/automatically-forward-messages-to-another-e-mail-account-HA001150201.aspx
+2. Please note that in version 2010, Outlook does not allow forwarding to an outside email id. Please contact your IT department in case
+
+
 Can I forward emails from more than one email inbox?
 ----------------------------------------------------
 
