@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Star a Ticket
-description: How do I star a ticket
+description: To follow up on a ticket in SupportBe, even if it is assigned to someone else, start a ticket. You can see all your starred tickets in the My Tickets section.
 categories: handling.tickets
 ---
 
@@ -22,7 +22,7 @@ When should I star a ticket?
 There are few situations where you may want to star a ticket
 
 1. Once you reply to a ticket, it disappears off the Unanswered section. If you still want to follow it up, you can star it.
-2. If you [assign a ticket]({{ BASE_PATH }}/assigning-a-ticket) to someone else but still want to follow it up, you should star it
+2. If you [assign a ticket to a user]({{ BASE_PATH }}/assign-tickets-to-user) or [to a group]({{ BASE_PATH }}/assign-tickets-to-group) but still want to follow it up, you should star it. This way the ticket won't go out of sight.
 
 If I star a ticket, is it starred for everybody else too?
 ---------------------------------------------------------
