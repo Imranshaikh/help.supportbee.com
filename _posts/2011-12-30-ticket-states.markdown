@@ -7,17 +7,16 @@ categories: handling.tickets
 
 {% include setup %}
 
-Answered - Unanswered?
-----------------------
+Unanswered - Answered 
+---------------------
 
 Unlike traditional [email ticketing systems](/features/email), tickets in SupportBee have only two states - Answered & Unanswered. Also, they can be Unassigned or Assigned to a user or a group.
 
-When you reply to a ticket or archive it, it is marked Answered and it goes off all Unanswered sections. If the customer replies back, it is marked as Unanswered again.
+When a ticket is created, it is unassigned and unanswered (unless you have a [filter]({{ BASE_PATH }}/working-with-filters) that assigns it). When you reply to a ticket, it is marked Answered and it is moved to the Answered section. It stays in the 'Answered' section until you Archive it. Also, if the customer replies back, it is marked as Unanswered again so you can quickly see that it has a with new customer replies.
 
-What is the default state of a new ticket?
-------------------------------------------
+Archived
+--------
 
-A new ticket by default is Unassigned and Unanswered. However, there are a few exceptions
+You should 'Archive' a ticket if you think that you are done with it. Archive is like closed without the side effects (like having to re-open etc). We also record the time it took you to archive the ticket and give you a report on the average time to archive.
 
-1. If you [create a filter]({{ BASE_PATH }}/working-with-filters) that when matched assigns the ticket to a user or agent, the ticket would be assigned and not show up in Unassigned screen
-2. If you [create a filter]({{ BASE_PATH }}/working-with-filters) that when matched archives the ticket, the ticket would be marked as answered and it will not show up in Unanswered section of any screen. You can still find it in All Tickets
+You can see all your Archived tickets by visiting 'All Tickets' and filtering by selecting 'Archived' in the state dropdown.
